@@ -15,13 +15,14 @@ public class NewField extends JFrame implements ChangeListener {
         return gap;
     }
 
-    JLabel description;
+
     JRadioButton hasNumbers;
     JRadioButton hasCapitalLetters;
     JLabel lengthDescription;
     JSlider lengthOfPassword;
     JLabel numberFromSlider;
     JButton createPassword;
+	JLabel description;
 
     NewField() {
 
